@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,800");
+* {
+  margin: 0;
+  padding: 0; }
+
+h2 {
+  font-size: 40px; }
+
+h3.white, h2.white {
+  color: #FFFFFF;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif; }
+
+p.white {
+  color: #FFFFFF; }
+
+p.green {
+  color: #20AF50; }
+
+p.grey {
+  color: #808080;
+  font-size: 30px;
+  font-weight: lighter;
+  margin-top: 20px;
+  padding: 30px; }
+
+.white {
+  color: #FFFFFF;
+  font-family: "Montserrat", sans-serif; }
+
+h4.grey {
+  font-size: 20px;
+  font-weight: lighter;
+  color: #808080;
+  padding-bottom: 10px; }
+
+h3.grey, h2.grey {
+  color: #414141;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif; }
+
+h3 {
+  font-size: 30px; }
+
+h1.green {
+  color: #20AF50;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 80px; }
+
+body {
+  font-family: "Helvetica";
+  box-sizing: border-box; }
+
+.bigger {
+  font-size: 70px; }
+
+.headline {
+  padding: 50px;
+  display: block;
+  padding-top: 150px;
+  text-align: center; }
+
+input::placeholder {
+  color: white;
+  font-size: 20px;
+  padding-left: 30px;
+  transform: translateY(2px); }
+
+h2.white {
+  font-weight: 600; }
+
+.hero {
+  background-image: linear-gradient(rgba(46, 135, 86, 0.7), rgba(46, 135, 86, 0.7)), url("../img/salad-party.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px; }
+
+.narrow {
+  width: 50%; }
+
+button {
+  background-color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  color: #20AF50;
+  border-radius: 7px;
+  font-size: 20px;
+  border: none;
+  height: 50px;
+  vertical-align: center;
+  margin-left: 20px;
+  width: 80px; }
+
+.big-form {
+  width: 450px;
+  height: 46px;
+  background-color: #20AF50;
+  border: 2px solid white;
+  border-radius: 7px;
+  color: #FFFFFF;
+  margin-left: 70px;
+  padding: 0px;
+  vertical-align: center; }
+
+form {
+  display: flex; }
+
+.find-event {
+  margin-top: 20px;
+  border-radius: 25px;
+  background-color: #20AF50;
+  padding: 25px 50px 25px 50px;
+  display: flex; }
+
+.featured-grid {
+  background-color: #F4F4F4;
+  padding: 100px;
+  justify-content: center; }
+
+.featured-grid-header {
+  text-align: center;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  margin-bottom: 100px; }
+
+.round-icon {
+  height: 60px;
+  width: 60px;
+  transform: translate(45%, -100px);
+  background-color: #20AF50;
+  border: 25px #20AF50 solid;
+  border-radius: 100%; }
+
+.feature-box {
+  background-color: #FFFFFF;
+  width: 8vw;
+  min-height: 30vh;
+  padding: 50px;
+  margin: 10px;
+  text-align: center; }
+
+.container-grid {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center; }
+
+.stats {
+  padding: 50px;
+  background-color: #FFFFFF;
+  text-align: center; }
+
+.stat-item {
+  padding: 50px;
+  margin: 30px; }
+
+.card-grid {
+  text-align: center;
+  background-color: #F4F4F4;
+  padding: 50px; }
+
+.card {
+  background-color: white;
+  width: 13vw;
+  min-height: 30vh;
+  margin: 20px; }
+
+.card-top {
+  width: 100%;
+  min-height: 50%;
+  background-color: #20AF50;
+  background-image: linear-gradient(rgba(46, 135, 86, 0.7), rgba(46, 135, 86, 0.7)), url("../img/salad-party.jpg");
+  background-size: cover; }
+
+.card-bottom {
+  padding: 25px; }
+
+.row {
+  display: flex;
+  justify-content: center;
+  max-width: 30vw;
+  flex-flow: nowrap; }
+
+.wrap {
+  flex-wrap: wrap;
+  display: block; }
+
+/*# sourceMappingURL=styles.css.map */

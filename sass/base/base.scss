@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,800');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+$green-lt: #20AF50;
+$green-dk: rgba(46, 135, 86, 1);
+$green-dk-overlay: rgba(46, 135, 86, 0.7);
+$grey-lt: #F4F4F4;
+$grey-dk: #808080;
+$grey-ex-dk: #414141;
+$black-lt: #262626;
+$white: #FFFFFF;
+
+$headingfont: 'Montserrat', sans-serif;
+
+
+$helvetica: "Helvetica";
+
+h2 {
+  font-size: 40px;
+}
+
+h3.white, h2.white {
+  @include headertext($white);
+}
+p.white {
+  color: $white;
+}
+p.green {
+  color: $green-lt;
+}
+
+p.grey {
+  color: $grey-dk;
+  font-size: 30px;
+  font-weight: lighter;
+  margin-top: 20px;
+  padding: 30px;
+
+}
+.white {
+  color: $white;
+  font-family: $headingfont;
+}
+h4.grey {
+  font-size: 20px;
+  font-weight: lighter;
+  color: $grey-dk;
+  padding-bottom: 10px;
+}
+
+h3.grey, h2.grey {
+  @include headertext($grey-ex-dk);
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h1.green {
+  @include headertext($green-lt);
+  font-size: 80px;
+}
+
+body {
+  font-family: $helvetica;
+  box-sizing: border-box;
+}
+
+.bigger {
+  font-size: 70px;
+}
+.headline {
+  padding: 50px;
+  display: block;
+  padding-top: 150px;
+  text-align: center;
+}
+
+input::placeholder {
+  color: white;
+  font-size: 20px;
+  padding-left: 30px;
+  transform: translateY(2px);
+}
+h2.white {
+  font-weight: 600;
+}

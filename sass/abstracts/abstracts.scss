@@ -1,0 +1,5 @@
+@mixin headertext($color) {
+  color: $color;
+  font-weight: bold;
+  font-family: $headingfont;
+}
